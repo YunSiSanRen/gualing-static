@@ -9,8 +9,11 @@ This repository contains **build artifacts only** — no sources, no configurati
 
     js/          obfuscated application bundles
     js/libs/     third-party libraries vendored for offline fallback
-    css/         stylesheets
     fonts/       webfonts (woff2)
+    images/      page icons and background patterns
+    data/        static JSON data loaded at runtime
+
+Stylesheets are **not** kept here: the pages load `css/*.css` from their own origin.
 
 ## Versioning
 
